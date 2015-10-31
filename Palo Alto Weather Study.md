@@ -639,6 +639,12 @@ Load and inspect the data:
 
 
 
+
+    data['TMIN'] = data['TMIN'] / 10. # All temperatures to tenths. Convert temperatures to Celcius.
+
+
+    data['TMAX'] = data['TMAX'] / 10. # All temperatures to tenths. Convert temperatures to Celcius.
+
 ### Temperatures in Palo Alto
 
 
@@ -667,35 +673,35 @@ Load and inspect the data:
     <tr>
       <th>TMIN</th>
       <td>212</td>
-      <td>98.339623</td>
-      <td>43.340028</td>
-      <td>-11.0</td>
-      <td>67.0</td>
-      <td>100</td>
-      <td>129.25</td>
-      <td>172.0</td>
+      <td>9.833962</td>
+      <td>4.334003</td>
+      <td>-1.10</td>
+      <td>6.70</td>
+      <td>10.0</td>
+      <td>12.925</td>
+      <td>17.20</td>
     </tr>
     <tr>
       <th>TMAX</th>
       <td>212</td>
-      <td>234.174528</td>
-      <td>52.873476</td>
-      <td>100.0</td>
-      <td>198.5</td>
-      <td>233</td>
-      <td>272.00</td>
-      <td>367.0</td>
+      <td>23.417453</td>
+      <td>5.287348</td>
+      <td>10.00</td>
+      <td>19.85</td>
+      <td>23.3</td>
+      <td>27.200</td>
+      <td>36.70</td>
     </tr>
     <tr>
       <th>TMEAN</th>
       <td>212</td>
-      <td>166.257075</td>
-      <td>44.853460</td>
-      <td>44.5</td>
-      <td>133.5</td>
-      <td>167</td>
-      <td>203.00</td>
-      <td>261.5</td>
+      <td>16.625708</td>
+      <td>4.485346</td>
+      <td>4.45</td>
+      <td>13.35</td>
+      <td>16.7</td>
+      <td>20.300</td>
+      <td>26.15</td>
     </tr>
   </tbody>
 </table>
@@ -712,12 +718,12 @@ Load and inspect the data:
 
 
 
-    <matplotlib.text.Text at 0x11568f1d0>
+    <matplotlib.text.Text at 0x1162d4050>
 
 
 
 
-![png](output_13_1.png)
+![png](output_15_1.png)
 
 
 
@@ -729,12 +735,12 @@ Load and inspect the data:
 
 
 
-    <matplotlib.text.Text at 0x11575d8d0>
+    <matplotlib.text.Text at 0x114c1cd10>
 
 
 
 
-![png](output_14_1.png)
+![png](output_16_1.png)
 
 
 
@@ -746,12 +752,12 @@ Load and inspect the data:
 
 
 
-    <matplotlib.text.Text at 0x11610c110>
+    <matplotlib.text.Text at 0x11514e5d0>
 
 
 
 
-![png](output_15_1.png)
+![png](output_17_1.png)
 
 
 ### Results:
