@@ -15,7 +15,7 @@ Import the necessary libraries:
 Load and inspect the data:
 
 
-    data = pd.read_csv('613584.csv', parse_dates=True, index_col=5)
+    data = pd.read_csv('630613.csv', parse_dates=True, index_col=5)
 
 
     data.head()
@@ -77,7 +77,7 @@ Load and inspect the data:
   </thead>
   <tbody>
     <tr>
-      <th>2015-01-19</th>
+      <th>2014-01-08</th>
       <td>GHCND:US1CASC0017</td>
       <td>PALO ALTO 1.2 NE CA US</td>
       <td>9.8</td>
@@ -101,7 +101,7 @@ Load and inspect the data:
       <td>9999</td>
     </tr>
     <tr>
-      <th>2015-02-07</th>
+      <th>2014-01-09</th>
       <td>GHCND:US1CASC0017</td>
       <td>PALO ALTO 1.2 NE CA US</td>
       <td>9.8</td>
@@ -125,7 +125,7 @@ Load and inspect the data:
       <td>9999</td>
     </tr>
     <tr>
-      <th>2015-02-08</th>
+      <th>2014-01-29</th>
       <td>GHCND:US1CASC0017</td>
       <td>PALO ALTO 1.2 NE CA US</td>
       <td>9.8</td>
@@ -149,7 +149,7 @@ Load and inspect the data:
       <td>9999</td>
     </tr>
     <tr>
-      <th>2015-02-09</th>
+      <th>2014-01-30</th>
       <td>GHCND:US1CASC0017</td>
       <td>PALO ALTO 1.2 NE CA US</td>
       <td>9.8</td>
@@ -173,7 +173,7 @@ Load and inspect the data:
       <td>9999</td>
     </tr>
     <tr>
-      <th>2015-03-11</th>
+      <th>2014-02-02</th>
       <td>GHCND:US1CASC0017</td>
       <td>PALO ALTO 1.2 NE CA US</td>
       <td>9.8</td>
@@ -207,45 +207,45 @@ Load and inspect the data:
     data.info()
 
     <class 'pandas.core.frame.DataFrame'>
-    DatetimeIndex: 227 entries, 2015-01-19 to 2015-09-26
+    DatetimeIndex: 358 entries, 2014-01-08 to 2014-12-31
     Data columns (total 35 columns):
-    STATION                  227 non-null object
-    STATION_NAME             227 non-null object
-    ELEVATION                227 non-null float64
-    LATITUDE                 227 non-null float64
-    LONGITUDE                227 non-null float64
-    MDPR                     227 non-null int64
-    Measurement Flag         227 non-null object
-    Quality Flag             227 non-null object
-    Source Flag              227 non-null object
-    Time of Observation      227 non-null int64
-    DAPR                     227 non-null int64
-    Measurement Flag.1       227 non-null object
-    Quality Flag.1           227 non-null object
-    Source Flag.1            227 non-null object
-    Time of Observation.1    227 non-null int64
-    PRCP                     227 non-null int64
-    Measurement Flag.2       227 non-null object
-    Quality Flag.2           227 non-null object
-    Source Flag.2            227 non-null object
-    Time of Observation.2    227 non-null int64
-    TMAX                     227 non-null int64
-    Measurement Flag.3       227 non-null object
-    Quality Flag.3           227 non-null object
-    Source Flag.3            227 non-null object
-    Time of Observation.3    227 non-null int64
-    TMIN                     227 non-null int64
-    Measurement Flag.4       227 non-null object
-    Quality Flag.4           227 non-null object
-    Source Flag.4            227 non-null object
-    Time of Observation.4    227 non-null int64
-    TOBS                     227 non-null int64
-    Measurement Flag.5       227 non-null object
-    Quality Flag.5           227 non-null object
-    Source Flag.5            227 non-null object
-    Time of Observation.5    227 non-null int64
+    STATION                  358 non-null object
+    STATION_NAME             358 non-null object
+    ELEVATION                358 non-null float64
+    LATITUDE                 358 non-null float64
+    LONGITUDE                358 non-null float64
+    MDPR                     358 non-null int64
+    Measurement Flag         358 non-null object
+    Quality Flag             358 non-null object
+    Source Flag              358 non-null object
+    Time of Observation      358 non-null int64
+    DAPR                     358 non-null int64
+    Measurement Flag.1       358 non-null object
+    Quality Flag.1           358 non-null object
+    Source Flag.1            358 non-null object
+    Time of Observation.1    358 non-null int64
+    PRCP                     358 non-null int64
+    Measurement Flag.2       358 non-null object
+    Quality Flag.2           358 non-null object
+    Source Flag.2            358 non-null object
+    Time of Observation.2    358 non-null int64
+    TMAX                     358 non-null int64
+    Measurement Flag.3       358 non-null object
+    Quality Flag.3           358 non-null object
+    Source Flag.3            358 non-null object
+    Time of Observation.3    358 non-null int64
+    TMIN                     358 non-null int64
+    Measurement Flag.4       358 non-null object
+    Quality Flag.4           358 non-null object
+    Source Flag.4            358 non-null object
+    Time of Observation.4    358 non-null int64
+    TOBS                     358 non-null int64
+    Measurement Flag.5       358 non-null object
+    Quality Flag.5           358 non-null object
+    Source Flag.5            358 non-null object
+    Time of Observation.5    358 non-null int64
     dtypes: float64(3), int64(12), object(20)
-    memory usage: 63.8+ KB
+    memory usage: 100.7+ KB
 
 
 
@@ -272,9 +272,9 @@ Load and inspect the data:
   <tbody>
     <tr>
       <th>ELEVATION</th>
-      <td>227</td>
-      <td>7.725991</td>
-      <td>0.512311</td>
+      <td>358</td>
+      <td>7.944134</td>
+      <td>0.800285</td>
       <td>7.6000</td>
       <td>7.6000</td>
       <td>7.6000</td>
@@ -283,9 +283,9 @@ Load and inspect the data:
     </tr>
     <tr>
       <th>LATITUDE</th>
-      <td>227</td>
-      <td>37.444058</td>
-      <td>0.001863</td>
+      <td>358</td>
+      <td>37.444851</td>
+      <td>0.002910</td>
       <td>37.4436</td>
       <td>37.4436</td>
       <td>37.4436</td>
@@ -294,9 +294,9 @@ Load and inspect the data:
     </tr>
     <tr>
       <th>LONGITUDE</th>
-      <td>227</td>
-      <td>-122.140681</td>
-      <td>0.001956</td>
+      <td>358</td>
+      <td>-122.141514</td>
+      <td>0.003056</td>
       <td>-122.1486</td>
       <td>-122.1402</td>
       <td>-122.1402</td>
@@ -305,18 +305,18 @@ Load and inspect the data:
     </tr>
     <tr>
       <th>MDPR</th>
-      <td>227</td>
-      <td>-9866.687225</td>
-      <td>1145.841571</td>
+      <td>358</td>
+      <td>-9999.000000</td>
+      <td>0.000000</td>
       <td>-9999.0000</td>
       <td>-9999.0000</td>
       <td>-9999.0000</td>
       <td>-9999.0000</td>
-      <td>38.0000</td>
+      <td>-9999.0000</td>
     </tr>
     <tr>
       <th>Time of Observation</th>
-      <td>227</td>
+      <td>358</td>
       <td>9999.000000</td>
       <td>0.000000</td>
       <td>9999.0000</td>
@@ -327,18 +327,18 @@ Load and inspect the data:
     </tr>
     <tr>
       <th>DAPR</th>
-      <td>227</td>
-      <td>-9866.819383</td>
-      <td>1144.695213</td>
+      <td>358</td>
+      <td>-9999.000000</td>
+      <td>0.000000</td>
       <td>-9999.0000</td>
       <td>-9999.0000</td>
       <td>-9999.0000</td>
       <td>-9999.0000</td>
-      <td>4.0000</td>
+      <td>-9999.0000</td>
     </tr>
     <tr>
       <th>Time of Observation.1</th>
-      <td>227</td>
+      <td>358</td>
       <td>9999.000000</td>
       <td>0.000000</td>
       <td>9999.0000</td>
@@ -349,20 +349,20 @@ Load and inspect the data:
     </tr>
     <tr>
       <th>PRCP</th>
-      <td>227</td>
-      <td>-254.440529</td>
-      <td>1609.861581</td>
-      <td>-9999.0000</td>
+      <td>358</td>
+      <td>22.717877</td>
+      <td>79.004104</td>
       <td>0.0000</td>
       <td>0.0000</td>
       <td>0.0000</td>
-      <td>401.0000</td>
+      <td>5.0000</td>
+      <td>1003.0000</td>
     </tr>
     <tr>
       <th>Time of Observation.2</th>
-      <td>227</td>
-      <td>1569.960352</td>
-      <td>2553.182968</td>
+      <td>358</td>
+      <td>2238.949721</td>
+      <td>3346.281577</td>
       <td>800.0000</td>
       <td>800.0000</td>
       <td>800.0000</td>
@@ -371,20 +371,20 @@ Load and inspect the data:
     </tr>
     <tr>
       <th>TMAX</th>
-      <td>227</td>
-      <td>-442.026432</td>
-      <td>2548.262075</td>
+      <td>358</td>
+      <td>-1463.332402</td>
+      <td>3797.247070</td>
       <td>-9999.0000</td>
-      <td>189.0000</td>
-      <td>228.0000</td>
-      <td>267.0000</td>
-      <td>367.0000</td>
+      <td>156.0000</td>
+      <td>200.0000</td>
+      <td>256.0000</td>
+      <td>344.0000</td>
     </tr>
     <tr>
       <th>Time of Observation.3</th>
-      <td>227</td>
-      <td>1407.863436</td>
-      <td>2290.271826</td>
+      <td>358</td>
+      <td>2316.036313</td>
+      <td>3417.642231</td>
       <td>800.0000</td>
       <td>800.0000</td>
       <td>800.0000</td>
@@ -393,20 +393,20 @@ Load and inspect the data:
     </tr>
     <tr>
       <th>TMIN</th>
-      <td>227</td>
-      <td>-568.885463</td>
-      <td>2514.279899</td>
+      <td>358</td>
+      <td>-1569.120112</td>
+      <td>3750.044750</td>
       <td>-9999.0000</td>
-      <td>56.0000</td>
-      <td>94.0000</td>
-      <td>128.0000</td>
-      <td>172.0000</td>
+      <td>45.5000</td>
+      <td>89.0000</td>
+      <td>117.0000</td>
+      <td>167.0000</td>
     </tr>
     <tr>
       <th>Time of Observation.4</th>
-      <td>227</td>
-      <td>1407.863436</td>
-      <td>2290.271826</td>
+      <td>358</td>
+      <td>2316.036313</td>
+      <td>3417.642231</td>
       <td>800.0000</td>
       <td>800.0000</td>
       <td>800.0000</td>
@@ -415,20 +415,20 @@ Load and inspect the data:
     </tr>
     <tr>
       <th>TOBS</th>
-      <td>227</td>
-      <td>-543.365639</td>
-      <td>2521.147736</td>
+      <td>358</td>
+      <td>-1547.737430</td>
+      <td>3759.582587</td>
       <td>-9999.0000</td>
-      <td>86.0000</td>
-      <td>128.0000</td>
-      <td>156.0000</td>
-      <td>339.0000</td>
+      <td>67.0000</td>
+      <td>114.0000</td>
+      <td>144.0000</td>
+      <td>261.0000</td>
     </tr>
     <tr>
       <th>Time of Observation.5</th>
-      <td>227</td>
-      <td>1407.863436</td>
-      <td>2290.271826</td>
+      <td>358</td>
+      <td>2316.036313</td>
+      <td>3417.642231</td>
       <td>800.0000</td>
       <td>800.0000</td>
       <td>800.0000</td>
@@ -470,9 +470,9 @@ Load and inspect the data:
   <tbody>
     <tr>
       <th>ELEVATION</th>
-      <td>227</td>
-      <td>7.725991</td>
-      <td>0.512311</td>
+      <td>358</td>
+      <td>7.944134</td>
+      <td>0.800285</td>
       <td>7.6000</td>
       <td>7.6000</td>
       <td>7.6000</td>
@@ -481,9 +481,9 @@ Load and inspect the data:
     </tr>
     <tr>
       <th>LATITUDE</th>
-      <td>227</td>
-      <td>37.444058</td>
-      <td>0.001863</td>
+      <td>358</td>
+      <td>37.444851</td>
+      <td>0.002910</td>
       <td>37.4436</td>
       <td>37.4436</td>
       <td>37.4436</td>
@@ -492,9 +492,9 @@ Load and inspect the data:
     </tr>
     <tr>
       <th>LONGITUDE</th>
-      <td>227</td>
-      <td>-122.140681</td>
-      <td>0.001956</td>
+      <td>358</td>
+      <td>-122.141514</td>
+      <td>0.003056</td>
       <td>-122.1486</td>
       <td>-122.1402</td>
       <td>-122.1402</td>
@@ -503,14 +503,14 @@ Load and inspect the data:
     </tr>
     <tr>
       <th>MDPR</th>
-      <td>3</td>
-      <td>12.666667</td>
-      <td>21.939310</td>
-      <td>0.0000</td>
-      <td>0.0000</td>
-      <td>0.0000</td>
-      <td>19.0000</td>
-      <td>38.0000</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>Time of Observation</th>
@@ -525,14 +525,14 @@ Load and inspect the data:
     </tr>
     <tr>
       <th>DAPR</th>
-      <td>3</td>
-      <td>2.666667</td>
-      <td>1.154701</td>
-      <td>2.0000</td>
-      <td>2.0000</td>
-      <td>2.0000</td>
-      <td>3.0000</td>
-      <td>4.0000</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>Time of Observation.1</th>
@@ -547,18 +547,18 @@ Load and inspect the data:
     </tr>
     <tr>
       <th>PRCP</th>
-      <td>221</td>
-      <td>10.117647</td>
-      <td>48.016140</td>
+      <td>358</td>
+      <td>22.717877</td>
+      <td>79.004104</td>
       <td>0.0000</td>
       <td>0.0000</td>
       <td>0.0000</td>
-      <td>0.0000</td>
-      <td>401.0000</td>
+      <td>5.0000</td>
+      <td>1003.0000</td>
     </tr>
     <tr>
       <th>Time of Observation.2</th>
-      <td>208</td>
+      <td>302</td>
       <td>800.000000</td>
       <td>0.000000</td>
       <td>800.0000</td>
@@ -569,18 +569,18 @@ Load and inspect the data:
     </tr>
     <tr>
       <th>TMAX</th>
-      <td>212</td>
-      <td>234.174528</td>
-      <td>52.873476</td>
-      <td>100.0000</td>
-      <td>198.5000</td>
-      <td>233.0000</td>
-      <td>272.0000</td>
-      <td>367.0000</td>
+      <td>299</td>
+      <td>220.963211</td>
+      <td>51.654979</td>
+      <td>111.0000</td>
+      <td>183.0000</td>
+      <td>222.0000</td>
+      <td>258.5000</td>
+      <td>344.0000</td>
     </tr>
     <tr>
       <th>Time of Observation.3</th>
-      <td>212</td>
+      <td>299</td>
       <td>800.000000</td>
       <td>0.000000</td>
       <td>800.0000</td>
@@ -591,18 +591,18 @@ Load and inspect the data:
     </tr>
     <tr>
       <th>TMIN</th>
-      <td>212</td>
-      <td>98.339623</td>
-      <td>43.340028</td>
-      <td>-11.0000</td>
-      <td>67.0000</td>
+      <td>299</td>
+      <td>94.301003</td>
+      <td>36.578724</td>
+      <td>-22.0000</td>
+      <td>72.0000</td>
       <td>100.0000</td>
-      <td>129.2500</td>
-      <td>172.0000</td>
+      <td>119.5000</td>
+      <td>167.0000</td>
     </tr>
     <tr>
       <th>Time of Observation.4</th>
-      <td>212</td>
+      <td>299</td>
       <td>800.000000</td>
       <td>0.000000</td>
       <td>800.0000</td>
@@ -613,18 +613,18 @@ Load and inspect the data:
     </tr>
     <tr>
       <th>TOBS</th>
-      <td>212</td>
-      <td>125.665094</td>
-      <td>47.248823</td>
-      <td>-11.0000</td>
+      <td>299</td>
+      <td>119.903010</td>
+      <td>39.704791</td>
+      <td>0.0000</td>
       <td>94.0000</td>
-      <td>128.0000</td>
-      <td>157.2500</td>
-      <td>339.0000</td>
+      <td>122.0000</td>
+      <td>144.0000</td>
+      <td>261.0000</td>
     </tr>
     <tr>
       <th>Time of Observation.5</th>
-      <td>212</td>
+      <td>299</td>
       <td>800.000000</td>
       <td>0.000000</td>
       <td>800.0000</td>
@@ -672,36 +672,36 @@ Load and inspect the data:
   <tbody>
     <tr>
       <th>TMIN</th>
-      <td>212</td>
-      <td>9.833962</td>
-      <td>4.334003</td>
-      <td>-1.10</td>
-      <td>6.70</td>
-      <td>10.0</td>
-      <td>12.925</td>
-      <td>17.20</td>
+      <td>299</td>
+      <td>9.430100</td>
+      <td>3.657872</td>
+      <td>-2.2</td>
+      <td>7.2</td>
+      <td>10.00</td>
+      <td>11.95</td>
+      <td>16.7</td>
     </tr>
     <tr>
       <th>TMAX</th>
-      <td>212</td>
-      <td>23.417453</td>
-      <td>5.287348</td>
-      <td>10.00</td>
-      <td>19.85</td>
-      <td>23.3</td>
-      <td>27.200</td>
-      <td>36.70</td>
+      <td>299</td>
+      <td>22.096321</td>
+      <td>5.165498</td>
+      <td>11.1</td>
+      <td>18.3</td>
+      <td>22.20</td>
+      <td>25.85</td>
+      <td>34.4</td>
     </tr>
     <tr>
       <th>TMEAN</th>
-      <td>212</td>
-      <td>16.625708</td>
-      <td>4.485346</td>
-      <td>4.45</td>
-      <td>13.35</td>
-      <td>16.7</td>
-      <td>20.300</td>
-      <td>26.15</td>
+      <td>299</td>
+      <td>15.763211</td>
+      <td>3.966303</td>
+      <td>6.1</td>
+      <td>12.8</td>
+      <td>15.85</td>
+      <td>19.15</td>
+      <td>24.4</td>
     </tr>
   </tbody>
 </table>
@@ -710,15 +710,15 @@ Load and inspect the data:
 
 
 
-    data.TMIN.plot().plot(style='k--')
-    ax = pd.ewma(data.TMIN, 10).plot(x='Date',y='T (C)',style='k', title='Minimum Temperatures')
+    data.TMIN.plot(style='k')
+    ax = pd.ewma(data.TMIN, 10).plot(x='Date',y='T (C)',style='k--', title='Minimum Temperatures')
     ax.set_xlabel('Date')
     ax.set_ylabel('T (C)')
 
 
 
 
-    <matplotlib.text.Text at 0x1162d4050>
+    <matplotlib.text.Text at 0x1117f48d0>
 
 
 
@@ -727,15 +727,15 @@ Load and inspect the data:
 
 
 
-    data.TMAX.plot().plot(style='k--')
-    ax = pd.ewma(data.TMAX, 10).plot(x='Date',y='T (C)',style='k', title='Maximum Temperatures')
+    data.TMAX.plot(style='k')
+    ax = pd.ewma(data.TMAX, 10).plot(x='Date',y='T (C)',style='k--', title='Maximum Temperatures')
     ax.set_xlabel('Date')
     ax.set_ylabel('T (C)')
 
 
 
 
-    <matplotlib.text.Text at 0x114c1cd10>
+    <matplotlib.text.Text at 0x1118be710>
 
 
 
@@ -744,15 +744,15 @@ Load and inspect the data:
 
 
 
-    data.TMEAN.plot().plot(style='k--')
-    ax = pd.ewma(data.TMEAN, 10).plot(x='Date',y='T (C)',style='k', title='Mean Temperatures')
+    data.TMEAN.plot(style='k')
+    ax = pd.ewma(data.TMEAN, 10).plot(x='Date',y='T (C)',style='k--', title='Mean Temperatures')
     ax.set_xlabel('Date')
     ax.set_ylabel('T (C)')
 
 
 
 
-    <matplotlib.text.Text at 0x11514e5d0>
+    <matplotlib.text.Text at 0x1118befd0>
 
 
 
@@ -760,9 +760,41 @@ Load and inspect the data:
 ![png](output_17_1.png)
 
 
-### Results:
+### Observations:
 
-The plots show a general increase in temperature for the whole year of 2014.
+The plots show a general increase in temperature until mid-September. After that, there is a sharp decrease in temperature until the end of November. At the beginning of December there is a small spike in the average temperature.
+
+## Precipitation
+
+
+    data['PRCP'] = data['PRCP'] / 10. # convert to mm
+
+
+    by_month = data.groupby(lambda x: x.month)
+
+
+    data_by_month = by_month.apply(sum)
+
+
+    ax = data_by_month['PRCP'].plot(kind='bar', title='Monthly Precipitation')
+    ax.set_xlabel('month')
+    ax.set_xticklabels(['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'])
+    ax.set_ylabel('Precipitation (mm)')
+
+
+
+
+    <matplotlib.text.Text at 0x111dc4d10>
+
+
+
+
+![png](output_24_1.png)
+
+
+### Observations:
+
+The plot shows December was the rainest month of 2014.
 
 
     
